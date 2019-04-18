@@ -10,7 +10,7 @@
   // Override <a>'s hover style
   @include hover {
     color: $close-color;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
   &:not(:disabled):not(.disabled) {
